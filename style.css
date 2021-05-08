@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#navbar {
+  display: flex;
+}
+
+nav > ul {
+  list-style: none;
+}
+li {
+  display: inline;
+}
+.leftlink {
+  margin-right: 70%;
+}
+.rightlink {
+  margin-left: 70%;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.container {
+  position: absolute;
+}
+.logo {
+  display: flex;
+  height: auto;
+  width: auto;
+}
+.searchbar {
+  position: relative;
+  left: 50%;
+}
+.material-icons {
+  position: relative;
+  left: 90%;
+  bottom: -90%;
+}
