@@ -55,3 +55,38 @@ li > a {
   left: 83%;
   top: -10%;
 }
+@media screen and (max-width: 375px) {
+  body {
+    background-color: yellow;
+    font-size: 0.5em;
+  }
+  .navbar {
+    width: 70%;
+  }
+  nav > ul {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  li {
+    display: inline;
+  }
+  li > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 0.9em;
+  }
+  .store {
+    margin-left: 2%;
+  }
+  .images {
+    position: relative;
+    left: 40%;
+    padding-left: 35%;
+  }
+  .gmail {
+    position: relative;
+    left: 50%;
+  }
+}
