@@ -3,40 +3,55 @@ body {
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-#navbar {
-  display: flex;
+/* #navbar { */
+/* display: flex; */
+/* } */
+nav {
+  width: 100%;
 }
-
 nav > ul {
   list-style: none;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 li {
   display: inline;
 }
-.leftlink {
-  margin-right: 70%;
-}
-.rightlink {
-  margin-left: 70%;
-}
-a {
-  color: black;
+li > a {
   text-decoration: none;
+  color: black;
+  font-weight: 300;
+  font-size: 0.9em;
 }
-.container {
-  position: absolute;
+.store {
+  margin-left: 2%;
 }
-.logo {
-  display: flex;
-  height: auto;
-  width: auto;
-}
-.searchbar {
+.images {
   position: relative;
-  left: 50%;
+  left: 82%;
 }
+.gmail {
+  position: relative;
+  left: 80%;
+}
+/* a { */
+/* color: black; */
+/* text-decoration: none; */
+/* } */
+/* .container { */
+/* position: absolute; */
+/* } */
+/* .logo { */
+/* display: flex; */
+/* height: auto; */
+/* width: auto; */
+/* } */
+/* .searchbar { */
+/* position: relative; */
+/* left: 50%; */
+/* } */
 .material-icons {
   position: relative;
-  left: 90%;
-  bottom: -90%;
+  left: 83%;
+  top: -10%;
 }
