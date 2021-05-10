@@ -55,6 +55,15 @@ li > a {
   left: 83%;
   top: -10%;
 }
+.logo-search {
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  padding: 10px;
+}
+
 @media screen and (max-width: 375px) {
   body {
     background-color: yellow;
