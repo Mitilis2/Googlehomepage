@@ -34,7 +34,10 @@ li > a {
   position: relative;
   left: 80%;
 }
-
+.main-container {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
 .material-icons {
   position: relative;
   left: 83%;
@@ -60,6 +63,14 @@ input {
   position: fixed;
   top: 48%;
   left: 44.5%;
+}
+.footer {
+  position: fixed;
+
+  width: 100%;
+  display: flex;
+  background-color: lightgray;
+  top: 95%;
 }
 @media screen and (max-width: 375px) {
   body {
