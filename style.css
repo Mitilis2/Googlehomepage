@@ -63,7 +63,11 @@ li > a {
   margin-left: -100px;
   padding: 10px;
 }
-
+.buttons {
+  position: fixed;
+  top: 48%;
+  left: 44.5%;
+}
 @media screen and (max-width: 375px) {
   body {
     background-color: yellow;
