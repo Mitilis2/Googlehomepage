@@ -34,22 +34,7 @@ li > a {
   position: relative;
   left: 80%;
 }
-/* a { */
-/* color: black; */
-/* text-decoration: none; */
-/* } */
-/* .container { */
-/* position: absolute; */
-/* } */
-/* .logo { */
-/* display: flex; */
-/* height: auto; */
-/* width: auto; */
-/* } */
-/* .searchbar { */
-/* position: relative; */
-/* left: 50%; */
-/* } */
+
 .material-icons {
   position: relative;
   left: 83%;
